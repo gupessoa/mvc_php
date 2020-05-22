@@ -1,6 +1,10 @@
 <?php
-class homeController{
+class homeController extends  controller{
 	public function index(){
-		echo 'Olá Mundo! Home Controller funcionando';
+		$dados = array(
+			'quantidade' => 5
+		);
+		
+		$this->loadTemplate('home', $dados);
 	}
 }
