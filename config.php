@@ -5,14 +5,12 @@
 
 	if(ENVIRONMENT == 'development'){
 		define('BASE_URL', 'http://localhost/mvc.dev/');
-		
 		$config['dbname'] = 'mvc';
 		$config['host'] = 'localhost';
 		$config['dbuser'] = 'root';
 		$config['dbpass'] = 'gust@v000';
 	}else{
 		define('BASE_URL', 'http://localhost/mvc.dev/');
-		
 		$config['dbname'] = 'mvc';
 		$config['host'] = 'localhost';
 		$config['dbuser'] = 'gupessoa';
